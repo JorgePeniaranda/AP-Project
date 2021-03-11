@@ -164,10 +164,13 @@ header {
 
 hr.Contenido-Tarjetas {
   align-items: center;
-  width: 60em;
+  justify-content: center;
+  text-align: center;
+  width: 75%;
   border-color: rgb(255, 255, 255);
   margin-top: 5em;
   margin-bottom: 5em;
+  border-width: 0.07em;
 }
 
 /* TARJETAS */
@@ -316,9 +319,9 @@ footer p {
   margin-bottom: 0.3em;
 }
 .footer__Suscripcion input#footer__Suscripcion-Mail {
-  padding: 0.2em;
+  padding: 0.3em;
   padding-left: 0.75em;
-  padding-right: 2em;
+  padding-right: 50px;
   border-radius: 0.455em;
 }
 .footer__Suscripcion input#footer__Suscripcion-Boton {
@@ -338,7 +341,14 @@ footer p {
 
 /* Responsive */
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
+
+  /* HTML */
+
+  html {
+    font-size: 14px;
+}
+
   /* HEADER */
 
   header {
@@ -347,12 +357,27 @@ footer p {
     justify-content: center;
   }
 
+  .header__img img {
+    width: 5em;
+    margin-right: 0;
+  }
+
+  .header__menu-boton {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
   /* PORTADA */
 
   .Portada__Text {
     width: 100%;
     margin: 0;
     margin-bottom: 1em;
+  }
+
+  .Portada img {
+    width: 100%;
+    margin-left: 0;
   }
 
   /* CONTENIDO */
@@ -392,5 +417,43 @@ footer p {
 
   .footer__Suscripcion {
     width: 14em;
+  }
+}
+@media (max-width: 375px) {
+
+  html {
+    font-size: 12px;
+}
+}
+@media (max-width: 320px) {
+
+  html {
+    font-size: 11px;
+}
+}
+@media (min-width: 1024px) {
+  html {
+         font-size: 13px;
+  }
+}
+@media (min-width: 1440px) {
+  html {
+         font-size: 18px;
+  }
+}
+@media (min-width: 2560px) {
+  html {
+         font-size: 34px;
+  }
+  .footer__Suscripcion input#footer__Suscripcion-Mail {
+    padding-right: 350px;
+  }
+  .footer__Suscripcion input#footer__Suscripcion-Mail {
+    padding: 0.5em;
+    padding-left: 0.75em;
+    padding-right: 200px;
+  }
+  input {
+    font-size: 35px;
   }
 }
