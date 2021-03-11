@@ -23,6 +23,9 @@ body {
   font-family: "Texto-Light";
   src: url(OpenSans-Light.ttf);
 }
+input {
+  border: none;
+}
 ::-webkit-input-placeholder {
   color: rgb(213, 213, 213);
 }
@@ -327,14 +330,14 @@ footer p {
   padding: 0.3em;
   padding-left: 0.75em;
   padding-right: 50px;
-  border-radius: 0.455em;
+  border-radius: 0.35em;
 }
 .footer__Suscripcion input#footer__Suscripcion-Boton {
   width: 5em;
   padding: 0.3em;
   background-color: #ffff00;
   border-radius: 0.5em;
-  margin-top: 0.5em;
+  margin-top: 0.35em;
 }
 .footer__Suscripcion input#footer__Suscripcion-Boton:hover {
   background-color: #d3d329;
