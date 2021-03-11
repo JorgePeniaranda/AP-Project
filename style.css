@@ -408,8 +408,16 @@ footer p {
 
   /* TARJETAS */
 
+  .Tarjetas {
+    margin-left: 0em;
+  }
+
   .Tarjetas h2 {
     text-align: center;
+  }
+
+  .Tarjetas__Contenido {
+    margin-right: 0;
   }
 
   /* FOOTER */
