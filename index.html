@@ -32,7 +32,9 @@
     </div>
     <div class="Contenido-Medio">
       <div class="Contenido">
-        <h2>Lo mas Jugado</h2>
+        <div class="Contenido__Titulo">
+          <h2 class="Contenido__Titulo">Lo mas Jugado</h2>
+        </div>
         <div class="Contenido__separador">
           <div class="Contenido__separador-Img">
             <img src="solar-ash.png" alt="solar-ash-image" />
@@ -52,77 +54,80 @@
             </div>
           </div>
         </div>
-        <hr />
       </div>
     </div>
+    <!-- 
+    <hr class="Contenido-Tarjetas" /> -->
     <div class="Contenido-Medio">
       <div class="Tarjetas">
         <h2>Recomendados</h2>
-          <div id="Tarjetas__Contenido">
-            <div class="Tarjetas__Contenido">
-              <div class="Tarjetas__Contenido-Img">
-                <img src="lol.png" alt="League-Of-legends-img" />
-              </div>
-              <h2>League Of legends</h2>
-              <p class="Tarjetas__Contenido-Texto">
-                League of Legends es un videojuego del género multijugador de arena
-                de batalla en linea y deporte electrónico el cual fue desarrollado
-                por Riot Games.
-              </p>
-              <div class="Tarjetas__Contenido-Boton Boton-1">
-                <a href="">Ir al Juego</a>
-              </div>
+        <div id="Tarjetas__Contenido">
+          <div class="Tarjetas__Contenido">
+            <div class="Tarjetas__Contenido-Img">
+              <img src="lol.png" alt="League-Of-legends-img" />
             </div>
-            <div class="Tarjetas__Contenido Tarjeta-Especial">
-              <div class="Tarjetas__Contenido-Img">
-                <img src="among_us.png" alt="Among-Us-img" />
-              </div>
-              <div class="Tarjetas__Contenido-Trending">
-                <p>TRENDING</p>
-              </div>
-              <h2>Among Us</h2>
-              <p class="Tarjetas__Contenido-Texto">
-                Among Us es un videojuego que tiene un grupo de jugadores a bordo de
-                una nave espacial, cada uno de los cuales asume uno de los dos
-                roles: compañeros o impostores.
-              </p>
-              <div class="Tarjetas__Contenido-Boton Boton-2">
-                <a href="">Ir al Juego</a>
-              </div>
+            <h2>League Of legends</h2>
+            <p class="Tarjetas__Contenido-Texto">
+              League of Legends es un videojuego del género multijugador de
+              arena de batalla en linea y deporte electrónico el cual fue
+              desarrollado por Riot Games.
+            </p>
+            <div class="Tarjetas__Contenido-Boton Boton-1">
+              <a href="">Ir al Juego</a>
             </div>
-            <div class="Tarjetas__Contenido Tarjeta-Especial">
-              <div class="Tarjetas__Contenido-Img">
-                <img src="brawhalla.png" alt="Brawlhalla-img" />
-              </div>
-              <h2>Brawlhalla</h2>
-              <p class="Tarjetas__Contenido-Texto">
-                Brawlhalla es un videojuego gratuito de lucha desarrolado por Blue
-                Mammoth Games y publicado por Ubisoft para múltiples plataformas y
-                sistemas operativos.
-              </p>
-              <div class="Tarjetas__Contenido-Boton Boton-3">
-                <a href="">Ir al Juego</a>
-              </div>
+          </div>
+          <div class="Tarjetas__Contenido Tarjeta-Especial">
+            <div class="Tarjetas__Contenido-Img">
+              <img src="among_us.png" alt="Among-Us-img" />
             </div>
+            <div class="Tarjetas__Contenido-Trending">
+              <p>TRENDING</p>
+            </div>
+            <h2>Among Us</h2>
+            <p class="Tarjetas__Contenido-Texto">
+              Among Us es un videojuego que tiene un grupo de jugadores a bordo
+              de una nave espacial, cada uno de los cuales asume uno de los dos
+              roles: compañeros o impostores.
+            </p>
+            <div class="Tarjetas__Contenido-Boton Boton-2">
+              <a href="">Ir al Juego</a>
+            </div>
+          </div>
+          <div class="Tarjetas__Contenido Tarjeta-Especial">
+            <div class="Tarjetas__Contenido-Img">
+              <img src="brawhalla.png" alt="Brawlhalla-img" />
+            </div>
+            <h2>Brawlhalla</h2>
+            <p class="Tarjetas__Contenido-Texto">
+              Brawlhalla es un videojuego gratuito de lucha desarrolado por Blue
+              Mammoth Games y publicado por Ubisoft para múltiples plataformas y
+              sistemas operativos.
+            </p>
+            <div class="Tarjetas__Contenido-Boton Boton-3">
+              <a href="">Ir al Juego</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="footer__Contenido">
-        <img src="Logo-Footer.png" alt="Logo" />
-        <p>Gamer +</p>
-      </div>
-      <div class="footer__Suscripcion">
-        <p>Suscribite a las novedades</p>
-        <form method="post">
-          <input
-            type="email"
-            placeholder="Ingresá tu mail"
-            required
-            id="footer__Suscripcion-Mail"
-          />
-          <input type="submit" id="footer__Suscripcion-Boton" />
-        </form>
+      <div class="footer-contenedor">
+        <div class="footer__Contenido">
+          <img src="Logo-Footer.png" alt="Logo" />
+          <p>Gamer +</p>
+        </div>
+        <div class="footer__Suscripcion">
+          <p>Suscribite a las novedades</p>
+          <form method="post">
+            <input
+              type="email"
+              placeholder="Ingresá tu mail"
+              required
+              id="footer__Suscripcion-Mail"
+            />
+            <input type="submit" id="footer__Suscripcion-Boton" />
+          </form>
+        </div>
       </div>
     </footer>
   </body>
